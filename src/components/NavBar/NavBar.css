@@ -1,0 +1,6 @@
+a:hover, .header a:active {
+    border-style: dashed;
+    background-color:rgb(255, 223, 223);
+    scale: 1.1;
+    transition-duration: 1000ms;
+  }

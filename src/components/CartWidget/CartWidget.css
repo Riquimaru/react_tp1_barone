@@ -1,0 +1,10 @@
+#btnCarro {
+    width: 44px;
+    height: 48px;
+    margin-left: 2px;
+    padding: 2px;
+}
+
+#btnCarro svg{
+    margin-right: 5px;
+}
