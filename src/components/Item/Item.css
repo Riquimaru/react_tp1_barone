@@ -1,0 +1,14 @@
+#links{
+    text-decoration: none;
+    border-style: outset;
+    background-color: black;
+    color: white;
+    margin-right: 3px;
+    padding: 5px;
+}
+
+#links:hover{
+    background-color: white;
+    color: black;
+    border-style: inset;
+}
