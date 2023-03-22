@@ -1,4 +1,5 @@
 import '../ItemList/ItemList.css'
+import ItemContador from "../ItemContador/ItemContador";
 const ItemDetail = ({ nombre, precio, imagen, descripcion, stock, categoria, }) => {
     return (
         <div class="container">
@@ -13,6 +14,7 @@ const ItemDetail = ({ nombre, precio, imagen, descripcion, stock, categoria, }) 
                     <li className="list-group-item">Stock: {stock}</li>
                     <li className="list-group-item">Categoría: {categoria}</li>
                 </ul>
+                <ItemContador stock={stock}/>
                 <button>Comprar</button>
             </div>
         </div>
