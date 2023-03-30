@@ -1,12 +1,12 @@
 import './NavBar.css'
-import Carrito from '../CartWidget/CartWidget'
-import { Link, NavLink } from 'react-router-dom'
+import CartWidget from '../CartWidget/CartWidget'
+import { NavLink, Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light" id="linknav">
       <NavLink to='/'><a className="navbar-brand m-3">Tienda Barone</a></NavLink>
-      <Carrito />
+      <Link to='/carrito'><CartWidget /></Link>
       <div className="collapse navbar-collapse justify-content-end">
         <ul className="navbar-nav m-4">
           <li className="nav-item">

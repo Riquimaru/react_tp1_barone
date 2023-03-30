@@ -8,9 +8,11 @@
 }
 
 button{
-    padding: 6px;
     margin-top: 3px;
-    border-radius: 15px;
+    margin-bottom: 4px;
+    margin-right: 5px;
+    padding: 8px;
+    border-radius: 10px;
 }
 
 button:hover{

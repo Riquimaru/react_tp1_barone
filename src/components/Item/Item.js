@@ -13,8 +13,7 @@ return(
         <li className="list-group-item">Precio: {precio}</li>
     </ul>
     <div className="card-body">
-        <Link to={`/item/${id}`}><a href="#" className="card-link" id="links">Detalle</a></Link>
-        <a href="#" className="card-link" id="links">Comprar</a>
+        <Link to={`/item/${id}`}><a href="#" className="card-link" id="links">Detalles</a></Link>
     </div>
 </div>
 </div>
