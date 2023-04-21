@@ -9,12 +9,12 @@ import { getFirestore} from 'firebase/firestore'
 // Your web app's Firebase configuration
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAiGwwCkjSRF7KURlfYVIeg5B645xajbGo",
-  authDomain: "tienda-barone.firebaseapp.com",
-  projectId: "tienda-barone",
-  storageBucket: "tienda-barone.appspot.com",
-  messagingSenderId: "72657003859",
-  appId: "1:72657003859:web:82cd833833224e4653ada6"
+  apiKey: process.env.REACT_APP_apiKey,
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId
 };
 
 
